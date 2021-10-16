@@ -1,0 +1,81 @@
+.settings {
+    display: flex;
+
+}
+.settingsWrapper {
+    flex: 9;
+    padding: 20px;
+}
+.settingsTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.settingsUT {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: crimson;
+}
+.settingsDT {
+    font-size: 15px;
+    color: crimson;
+
+}
+.settingsPP {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.settingsPP > img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.pIcon {
+   width: 25px;
+   height: 25px;
+   border-radius: 50px;
+   background: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 10px;
+}
+.settingsForm > label {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 10px;
+}
+
+.settingsForm > input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 30px;
+    margin: 10px, 0;
+}
+.settingsForm > button {
+   display: flex;
+   position: absolute;
+   left: 36%;
+}
+.submitForm {
+    border-radius: 10px;
+    background: green;
+    width: 150px;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    align-self: center;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+
